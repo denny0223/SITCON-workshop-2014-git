@@ -805,11 +805,11 @@ function parse\_git\_branch {<br />
 
 ### Checkout to previous version
 
-* `git checkout <reversion>`
+* `git checkout <revision>`
 
 ### Checkout file from previous version
 
-* `git checkout <reversion> <file>`
+* `git checkout <revision> <file>`
 
 --
 
@@ -823,21 +823,21 @@ function parse\_git\_branch {<br />
 
 * `git stash pop`
 
-* `git stash show -p <reversion>`
+* `git stash show -p <revision>`
 
 --
 
 ### Reset to previous version
 
-* `git reset <reversion>`
+* `git reset <revision>`
 
-* `git reset --hard <reversion>`
+* `git reset --hard <revision>`
 
 --
 
 ### Revert commit
 
-* `git revert <reversion>`
+* `git revert <revision>`
 
 --
 
@@ -1018,7 +1018,7 @@ function parse\_git\_branch {<br />
 
 ### Cherry-pick
 
-* `git cherry-pick <reversion>`
+* `git cherry-pick <revision>`
 
 --
 
@@ -1048,7 +1048,7 @@ function parse\_git\_branch {<br />
 
 --
 
-### cat-file -p &lt;reversion&gt;
+### cat-file -p &lt;revision&gt;
 
 `git cat-file -p 8b9af3b`
 
@@ -1075,7 +1075,7 @@ update
 
 `git commit --amend --date="Mar 15 00:00 2014"`
 
-`git rebase -i <reversion>`
+`git rebase -i <revision>`
 
 --
 
@@ -1092,7 +1092,7 @@ update
 
 ### More about diff
 
-* `git diff <reversion>`
+* `git diff <revision>`
 
 * `git diff master@{2014-07-01}`
 
